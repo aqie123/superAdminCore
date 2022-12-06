@@ -785,13 +785,17 @@ func (core *Core) http() {
 
 	//设置端口
 	port := os.Getenv("PORT")
+	host := os.Getenv("HOST")
 
 	if port == "" {
 
 		port = "8887"
 	}
+	if host == "" {
+		host = "0.0.0.0"
+	}
 
-	srv.Addr = "127.0.0.1:" + port
+	srv.Addr = host + ":" + port
 
 	srv.Handler = core.Engine
 
@@ -885,8 +889,12 @@ func (core *Core) boot() {
 
 			time.Sleep(200 * time.Millisecond)
 
+			host := os.Getenv("HOST")
+			if host == "" {
+				host = "0.0.0.0"
+			}
 			//验证http服务已启动完成
-			str, err := client.Request().GetToString("http://127.0.0.1:" + os.Getenv("PORT") + "/_ping/" + kernel.Id)
+			str, err := client.Request().GetToString("http://" + host + ":" + os.Getenv("PORT") + "/_ping/" + kernel.Id)
 
 			//http服务启动完成后再启动子服务
 			if err == nil && str == "success" {
