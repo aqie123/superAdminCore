@@ -1,8 +1,8 @@
 package cache
 
 import (
-	"github.com/PeterYangs/superAdminCore/cache/fileCache"
-	"github.com/PeterYangs/superAdminCore/cache/redisCache"
+	"github.com/aqie123/superAdminCore/cache/fileCache"
+	"github.com/aqie123/superAdminCore/cache/redisCache"
 	"os"
 	"time"
 )

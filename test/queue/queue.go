@@ -1,9 +1,9 @@
 package queue
 
 import (
-	"github.com/PeterYangs/superAdminCore/queue/template"
-	"github.com/PeterYangs/superAdminCore/task/email"
-	"github.com/PeterYangs/superAdminCore/test/task/demo2"
+	"github.com/aqie123/superAdminCore/queue/template"
+	"github.com/aqie123/superAdminCore/task/email"
+	"github.com/aqie123/superAdminCore/test/task/demo2"
 	//namespace
 )
 

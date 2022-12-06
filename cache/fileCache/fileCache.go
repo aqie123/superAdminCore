@@ -3,9 +3,9 @@ package fileCache
 import (
 	"encoding/json"
 	"errors"
-	"github.com/PeterYangs/superAdminCore/conf"
 	"github.com/PeterYangs/tools"
 	"github.com/PeterYangs/tools/secret"
+	"github.com/aqie123/superAdminCore/conf"
 	"io/ioutil"
 	"os"
 	"time"

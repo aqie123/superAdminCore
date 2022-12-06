@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 	"github.com/PeterYangs/gcmd2"
-	"github.com/PeterYangs/superAdminCore/database"
-	"github.com/PeterYangs/superAdminCore/mod"
-	"github.com/PeterYangs/superAdminCore/model"
 	"github.com/PeterYangs/tools"
+	"github.com/aqie123/superAdminCore/database"
+	"github.com/aqie123/superAdminCore/mod"
+	"github.com/aqie123/superAdminCore/model"
 	"github.com/manifoldco/promptui"
 	"io/ioutil"
 	"os"
@@ -170,7 +170,7 @@ func UpdateTable(pack string, table string) {
 
 	f.Write([]byte(`package ` + pack + `
 
-import "github.com/PeterYangs/superAdminCore/migrate"
+import "github.com/aqie123/superAdminCore/migrate"
 
 func Up() {
 
@@ -217,7 +217,7 @@ func CreateTable(pack string, table string) {
 
 	f.Write([]byte(`package ` + pack + `
 
-import "github.com/PeterYangs/superAdminCore/migrate"
+import "github.com/aqie123/superAdminCore/migrate"
 
 func Up() {
 
@@ -266,7 +266,7 @@ func Up() {
 import (
  ` + getPackageList(fileInfo) + `
 
-"github.com/PeterYangs/superAdminCore/migrate/transaction"
+"github.com/aqie123/superAdminCore/migrate/transaction"
 
 )
 
@@ -367,7 +367,7 @@ func Down() {
 
 import (
  ` + getPackageListForDown(migrations) + `
-"github.com/PeterYangs/superAdminCore/migrate/transaction"
+"github.com/aqie123/superAdminCore/migrate/transaction"
 )
 
 

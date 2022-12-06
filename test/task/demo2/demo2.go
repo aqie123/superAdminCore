@@ -2,7 +2,7 @@ package demo2
 
 import (
 	"fmt"
-	"github.com/PeterYangs/superAdminCore/queue/task"
+	"github.com/aqie123/superAdminCore/queue/task"
 )
 
 type Demo2Task struct {

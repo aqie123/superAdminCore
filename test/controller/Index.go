@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"github.com/PeterYangs/superAdminCore/contextPlus"
-	"github.com/PeterYangs/superAdminCore/queue"
-	"github.com/PeterYangs/superAdminCore/response"
-	"github.com/PeterYangs/superAdminCore/task/email"
+	"github.com/aqie123/superAdminCore/contextPlus"
+	"github.com/aqie123/superAdminCore/queue"
+	"github.com/aqie123/superAdminCore/response"
+	"github.com/aqie123/superAdminCore/task/email"
 )
 
 func Ping(c *contextPlus.Context) *response.Response {

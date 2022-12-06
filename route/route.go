@@ -1,10 +1,10 @@
 package route
 
 import (
-	"github.com/PeterYangs/superAdminCore/contextPlus"
-	"github.com/PeterYangs/superAdminCore/kernel"
-	"github.com/PeterYangs/superAdminCore/response"
-	"github.com/PeterYangs/superAdminCore/route/allUrl"
+	"github.com/aqie123/superAdminCore/contextPlus"
+	"github.com/aqie123/superAdminCore/kernel"
+	"github.com/aqie123/superAdminCore/response"
+	"github.com/aqie123/superAdminCore/route/allUrl"
 	"github.com/gin-gonic/gin"
 	"regexp"
 )

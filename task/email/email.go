@@ -3,7 +3,7 @@ package email
 import (
 	"errors"
 	"fmt"
-	"github.com/PeterYangs/superAdminCore/queue/task"
+	"github.com/aqie123/superAdminCore/queue/task"
 )
 
 type EmailTask struct {

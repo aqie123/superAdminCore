@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/PeterYangs/superAdminCore/contextPlus"
-	"github.com/PeterYangs/superAdminCore/core"
-	"github.com/PeterYangs/superAdminCore/middleware/session"
-	"github.com/PeterYangs/superAdminCore/test/artisan"
-	"github.com/PeterYangs/superAdminCore/test/conf"
-	"github.com/PeterYangs/superAdminCore/test/crontab"
-	"github.com/PeterYangs/superAdminCore/test/queue"
-	"github.com/PeterYangs/superAdminCore/test/routes"
+	"github.com/aqie123/superAdminCore/contextPlus"
+	"github.com/aqie123/superAdminCore/core"
+	"github.com/aqie123/superAdminCore/middleware/session"
+	"github.com/aqie123/superAdminCore/test/artisan"
+	"github.com/aqie123/superAdminCore/test/conf"
+	"github.com/aqie123/superAdminCore/test/crontab"
+	"github.com/aqie123/superAdminCore/test/queue"
+	"github.com/aqie123/superAdminCore/test/routes"
 )
 
 func main() {

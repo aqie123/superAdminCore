@@ -2,7 +2,7 @@ package crontab
 
 import (
 	"fmt"
-	"github.com/PeterYangs/superAdminCore/crontab"
+	"github.com/aqie123/superAdminCore/crontab"
 )
 
 func Crontab(crontab *crontab.Crontab) {

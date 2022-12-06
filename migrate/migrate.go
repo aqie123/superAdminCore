@@ -2,10 +2,10 @@ package migrate
 
 import (
 	"fmt"
-	"github.com/PeterYangs/superAdminCore/database"
-	"github.com/PeterYangs/superAdminCore/migrate/transaction"
-	"github.com/PeterYangs/superAdminCore/model"
 	"github.com/PeterYangs/tools"
+	"github.com/aqie123/superAdminCore/database"
+	"github.com/aqie123/superAdminCore/migrate/transaction"
+	"github.com/aqie123/superAdminCore/model"
 	"github.com/spf13/cast"
 	"strings"
 	"sync"

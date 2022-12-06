@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/PeterYangs/superAdminCore/cache"
-	"github.com/PeterYangs/superAdminCore/core"
-	"github.com/PeterYangs/superAdminCore/test/conf"
+	"github.com/aqie123/superAdminCore/cache"
+	"github.com/aqie123/superAdminCore/core"
+	"github.com/aqie123/superAdminCore/test/conf"
 )
 
 func main() {

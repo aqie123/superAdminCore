@@ -2,8 +2,8 @@ package crontab
 
 import (
 	"fmt"
-	"github.com/PeterYangs/superAdminCore/component/logs"
 	"github.com/PeterYangs/waitTree"
+	"github.com/aqie123/superAdminCore/component/logs"
 )
 
 type Crontab struct {

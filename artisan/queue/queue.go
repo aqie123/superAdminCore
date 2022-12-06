@@ -2,10 +2,10 @@ package queue
 
 import (
 	"fmt"
-	"github.com/PeterYangs/superAdminCore/conf"
-	"github.com/PeterYangs/superAdminCore/mod"
-	"github.com/PeterYangs/superAdminCore/queue/register"
 	"github.com/PeterYangs/tools/file/read"
+	"github.com/aqie123/superAdminCore/conf"
+	"github.com/aqie123/superAdminCore/mod"
+	"github.com/aqie123/superAdminCore/queue/register"
 	"github.com/manifoldco/promptui"
 	"log"
 	"os"
@@ -62,7 +62,7 @@ package ` + result + `
 	
 import (	
 
-	"github.com/PeterYangs/superAdminCore/queue/task"
+	"github.com/aqie123/superAdminCore/queue/task"
 
 )
 	

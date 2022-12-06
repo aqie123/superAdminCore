@@ -1,12 +1,12 @@
 package routes
 
 import (
-	"github.com/PeterYangs/superAdminCore/component/logs"
-	"github.com/PeterYangs/superAdminCore/contextPlus"
-	"github.com/PeterYangs/superAdminCore/response"
-	"github.com/PeterYangs/superAdminCore/route"
-	"github.com/PeterYangs/superAdminCore/test/controller"
-	"github.com/PeterYangs/superAdminCore/test/controller/cache"
+	"github.com/aqie123/superAdminCore/component/logs"
+	"github.com/aqie123/superAdminCore/contextPlus"
+	"github.com/aqie123/superAdminCore/response"
+	"github.com/aqie123/superAdminCore/route"
+	"github.com/aqie123/superAdminCore/test/controller"
+	"github.com/aqie123/superAdminCore/test/controller/cache"
 )
 
 func Routes(r route.Group) {
