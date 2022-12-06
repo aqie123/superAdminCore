@@ -1,4 +1,4 @@
-module github.com/PeterYangs/superAdminCore
+module github.com/aqie123/superAdminCore
 
 go 1.16
 
